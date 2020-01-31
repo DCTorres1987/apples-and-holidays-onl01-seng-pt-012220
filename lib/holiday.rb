@@ -28,7 +28,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash.each do |season, data|
     data.each do |holiday, supply|
       if holiday == :christmas
-        supply.each do |
+        supply.each do |new_supply|
 end
 
 
